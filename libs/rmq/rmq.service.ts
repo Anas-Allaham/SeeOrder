@@ -24,3 +24,5 @@ export class RmqService {
 		channel.ack(originalMessage);
 	}
 }
+
+//https://gitlab.com/team-backend2/adminpanel-backend-micro-services/-/commit/2b62c25bb204b4b2181fe73e96beaf044f47a098

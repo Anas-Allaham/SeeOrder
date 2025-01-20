@@ -54,6 +54,60 @@
       "compilerOptions": {
         "tsConfigPath": "libs/common/tsconfig.lib.json"
       }
+    },
+    "customers": {
+      "type": "application",
+      "root": "apps/customers",
+      "entryFile": "main",
+      "sourceRoot": "apps/customers/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/customers/tsconfig.app.json"
+      }
+    },
+    "orders": {
+      "type": "application",
+      "root": "apps/orders",
+      "entryFile": "main",
+      "sourceRoot": "apps/orders/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/orders/tsconfig.app.json"
+      }
+    },
+    "meals": {
+      "type": "application",
+      "root": "apps/meals",
+      "entryFile": "main",
+      "sourceRoot": "apps/meals/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/meals/tsconfig.app.json"
+      }
+    },
+    "discounts": {
+      "type": "application",
+      "root": "apps/discounts",
+      "entryFile": "main",
+      "sourceRoot": "apps/discounts/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/discounts/tsconfig.app.json"
+      }
+    },
+    "menu": {
+      "type": "application",
+      "root": "apps/menu",
+      "entryFile": "main",
+      "sourceRoot": "apps/menu/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/menu/tsconfig.app.json"
+      }
+    },
+    "auth": {
+      "type": "application",
+      "root": "apps/auth",
+      "entryFile": "main",
+      "sourceRoot": "apps/auth/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/auth/tsconfig.app.json"
+      }
     }
   }
 }
