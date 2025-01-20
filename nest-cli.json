@@ -28,15 +28,6 @@
         "tsConfigPath": "apps/delivery/tsconfig.app.json"
       }
     },
-    "users": {
-      "type": "application",
-      "root": "apps/users",
-      "entryFile": "main",
-      "sourceRoot": "apps/users/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/users/tsconfig.app.json"
-      }
-    },
     "restaurent": {
       "type": "application",
       "root": "apps/restaurent",
